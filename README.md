@@ -36,7 +36,7 @@ If script successfully runs move on to step 4.
 
 ## 4. Create open, public wifi hotspot to share free access to internet with others
 
-(Replace `Public Freenet` with preferred network name.
+Replace `Public Freenet` with preferred network name.
 
 ```
 export WIFI_INTERFACE=$(iw dev | awk '$1=="Interface"{print $2}')
